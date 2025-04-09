@@ -16,19 +16,19 @@ def messages(msg_type, *args, return_string=False):
 		"feature": "Bước 3: Chọn tính năng:\n1. Đổi tên theo định dạng.\n2. Thêm ký tự vào tên.\n3. Đổi tên ngẫu nhiên.\n0. Quay lại bước trước.",
 		"feature-prompt": "Vui lòng chọn tính năng: ",
 		"feature-invalid": "Lựa chọn không hợp lệ.\nVui lòng chọn lại tính năng: ",
-		"format-prompt": "Bước 4: Chọn định dạng đổi tên:\n1. yyyymmdd-hhmmss\n2. yyyymmdd-hhmmss-(kích thước tệp)\n3. xxxx-(số thứ tự)\n0. Quay lại bước trước.\nVui lòng chọn: ",
+		"format-prompt": "Bước 4: Chọn định dạng đổi tên:\n1. yyyymmdd-hhmmss\n2. yyyymmdd-hhmmss-size\n3. xxxx-so-thu-tu\n0. Quay lại bước trước.\nVui lòng chọn: ",
 		"format-invalid": "Lựa chọn không hợp lệ.\nVui lòng chọn lại định dạng: ",
-		"prefix-prompt": "Bước 4: Nhập tiền tố xxxx cho định dạng xxxx-(số thứ tự).\nMặc định: 'file'.\n0. Quay lại bước trước.\nVui lòng nhập: ",
+		"prefix-prompt": "Bước 4: Nhập tiền tố xxxx cho định dạng xxxx-so-thu-tu.\nMặc định: file.\n0. Quay lại bước trước.\nVui lòng nhập: ",
 		"char-position": "Bước 4: Chọn vị trí thêm ký tự:\n1. Thêm vào trước tên.\n2. Thêm vào sau tên.\n0. Quay lại bước trước.\nVui lòng chọn: ",
 		"char-position-invalid": "Lựa chọn không hợp lệ.\nVui lòng chọn lại vị trí: ",
 		"char-input": "Bước 5: Nhập ký tự cần thêm.\n0. Quay lại bước trước.\nVui lòng nhập: ",
 		"char-input-invalid": "Ký tự không được để trống.\nVui lòng nhập lại: ",
 		"processing": "Đang xử lý…",
 		"processed": "Đã đổi tên: {0} thành {1}.",
-		"complete": "Hoàn tất! Đã đổi tên {0}/{1} mục.",
+		"complete": "Hoàn tất. Đã đổi tên {0}/{1} mục.",
 		"file-zero": "Không tìm thấy mục nào để xử lý trong {0}.",
 		"file-error": "Lỗi khi đổi tên {0}: {1}.",
-		"prompt-restart": "Cảm ơn bạn đã sử dụng công cụ.\n1. Truy cập nhavantuonglai.com\n2. Truy cập Instagram nhavantuonglai.\n0. Chạy lại từ đầu.\nVui lòng chọn: ",
+		"prompt-restart": "Cảm ơn bạn đã sử dụng công cụ.\n1. Truy cập nhavantuonglai.com.\n2. Truy cập Instagram nhavantuonglai.\n0. Chạy lại từ đầu.\nVui lòng chọn: ",
 	}
 	message = messages_dict.get(msg_type, "").format(*args)
 	if return_string:
