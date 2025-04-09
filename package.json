@@ -1,6 +1,6 @@
 {
 	"name": "folder-attribute",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "File and folder renamer (FFR) is a Python tool designed to automate the renaming of files and folders. It supports multiple renaming options, including date-based formats, size based formats, sequential numbering, adding custom characters, and random names.",
 	"main": "index.js",
 	"scripts": {
@@ -15,6 +15,8 @@
 		"datetime",
 		"folder editor",
 		"folder attribute",
+		"attribute",
+		"editor",
 		"class",
 		"python script",
 		"python",
