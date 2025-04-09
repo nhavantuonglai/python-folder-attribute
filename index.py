@@ -9,9 +9,9 @@ def messages(msg_type, *args, return_string=False):
 	messages_dict = {
 		"welcome": "Folder file modifier là công cụ cập nhật ngày tháng, ảnh bìa trên bài viết markdown thông qua trình tệp lệnh, được phát triển bởi @nhavantuonglai.\nHỗ trợ kỹ thuật: info@nhavantuonglai.com.",
 		"location": "Bước 1: Chọn vị trí thao tác:\n1. Thao tác trên folder và subfolder.\n2. Thao tác trên file trong folder.\n0. Thoát chương trình.",
-		"location-prompt": "Vui lòng chọn vị trí: ",
-		"location-invalid": "Lựa chọn không hợp lệ.\nVui lòng chọn lại vị trí: ",
-		"directory-prompt": "Bước 2: Nhập đường dẫn thư mục.\nMặc định sử dụng folder hiện tại.\n0. Quay lại bước trước.\nVui lòng nhập: ",
+		"location-prompt": "Vui lòng chọn folder: ",
+		"location-invalid": "Lựa chọn không hợp lệ.\nVui lòng chọn lại folder: ",
+		"directory-prompt": "Bước 2: Nhập đường dẫn thư mục.\nMặc định sử dụng folder hiện tại.\n0. Quay lại bước trước.\nFolder thao tác là: ",
 		"directory-invalid": "Thư mục {0} không tồn tại.\nVui lòng nhập lại: ",
 		"feature": "Bước 3: Chọn tính năng:\n1. Đổi tên theo định dạng.\n2. Thêm ký tự vào tên.\n3. Đổi tên ngẫu nhiên.\n0. Quay lại bước trước.",
 		"feature-prompt": "Vui lòng chọn tính năng: ",
