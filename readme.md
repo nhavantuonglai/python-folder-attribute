@@ -9,7 +9,7 @@ _File and folder renamer (FFR) is a Python tool designed to automate the renamin
 To install, clone this repository and run the Python script directly:
 
 ```
-npm i folder-attribute
+npm install folder-attribute
 ```
 
 No additional dependencies are required beyond the Python standard library.
@@ -56,7 +56,7 @@ For adding characters (`2`):
 
 – Input the characters to add (e.g., `prefix_` or `_suffix`), or press `0` to go back.
 
-5. Process and complete: The tool processes all targeted files or folders and displays the result (e.g., _Completed! Renamed X/Y items_). Users can then choose to restart (`0`), visit the website (`1`), or Instagram (`2`). Backtracking: At any step, input `0` to return to the previous step.
+5. Process and complete: The tool processes all targeted files or folders and displays the result (e.g., _Completed. Renamed X/Y items_). Users can then choose to restart (`0`), visit the website (`1`), or Instagram (`2`). Backtracking: At any step, input `0` to return to the previous step.
 
 ## Contact & Support
 
@@ -66,7 +66,7 @@ For adding characters (`2`):
 
 If you have any questions or suggestions, feel free to reach out for the fastest support.
 
-Don’t forget to star this repository if you find it useful!
+Don’t forget to star this repository if you find it useful.
 
 # Công cụ đổi tên tệp và thư mục (FFR)
 
@@ -77,7 +77,7 @@ _Công cụ đổi tên tệp và thư mục (FFR) là một tiện ích Python 
 Để cài đặt, sao chép repository này và chạy trực tiếp script Python:
 
 ```
-npm i folder-attribute
+npm install folder-attribute
 ```
 
 Không yêu cầu thêm thư viện phụ thuộc ngoài thư viện chuẩn của Python.
@@ -124,7 +124,7 @@ Thêm ký tự (`2`):
 
 – Nhập ký tự cần thêm (Ví dụ: `prefix_` hoặc `_suffix`), hoặc nhấn `0` để quay lại.
 
-5. Xử lý và hoàn tất: Công cụ xử lý tất cả tệp hoặc thư mục được chọn và hiển thị kết quả (Ví dụ: _Hoàn tất! Đã đổi tên X/Y mục_). Sau đó, người dùng có thể chọn chạy lại (`0`), truy cập website (`1`), hoặc Instagram (`2`). Quay lại: Tại bất kỳ bước nào, nhập `0` để trở về bước trước.
+5. Xử lý và hoàn tất: Công cụ xử lý tất cả tệp hoặc thư mục được chọn và hiển thị kết quả (Ví dụ: _Hoàn tất. Đã đổi tên X/Y mục_). Sau đó, người dùng có thể chọn chạy lại (`0`), truy cập website (`1`), hoặc Instagram (`2`). Quay lại: Tại bất kỳ bước nào, nhập `0` để trở về bước trước.
 
 ## Liên hệ & Hỗ trợ
 
@@ -134,4 +134,4 @@ Thêm ký tự (`2`):
 
 Nếu bạn có câu hỏi hoặc đề xuất, đừng ngần ngại liên hệ để được hỗ trợ nhanh nhất.
 
-Đừng quên star repository này nếu bạn thấy nó hữu ích!
+Đừng quên star repository này nếu bạn thấy nó hữu ích.
